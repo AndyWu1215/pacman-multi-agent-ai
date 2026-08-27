@@ -1,0 +1,31 @@
+ {
+        "offensiveWeights": {
+        'closest-food': -6,           
+        'bias': -1,
+        '#-of-ghosts-1-step-away': -60,  
+        'successorScore': 150,         
+        'chance-return-food': 80,        
+        'depth': 3,                      
+        'reverse': -5,
+        'stop': -150,                 
+        },
+        "defensiveWeights": {
+        'numInvaders': -1200,            
+        'onDefense': 100,                
+        'teamDistance': -2,
+        'invaderDistance': -100,        
+        'blockingEscape': 80,           
+        'distanceToFood': -8,           
+        'stop': -150,                    
+        'reverse': -5,
+        },
+        "escapeWeights": {
+        'distanceToHome': -150,          
+        'enemyDistance': 25,            
+        'veryCloseGhost': -800,         
+        'carryingFood': 25,              
+        'onDefense': 300,                
+        'stop': -150,                   
+        'reverse': -8,                  
+        }
+    }
